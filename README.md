@@ -2,6 +2,10 @@
 
 #### Using: Very High-Speed Integrated Circuit Hardware Description Language (VHDL)
 
+## Report documentation:
+- [Document 1](/8%20point%20FFT%20using%20VHDL.pdf)
+- [Document 2](/Lab_Report.pdf)
+
 ## Contents
 
 ### Experiment 1 - Introduction to VHDL
