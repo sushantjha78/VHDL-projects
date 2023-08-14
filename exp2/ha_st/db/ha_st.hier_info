@@ -1,0 +1,21 @@
+|ha_st
+a => xorgate:u2.a
+a => andgate:u1.a
+b => xorgate:u2.b
+b => andgate:u1.b
+s <= xorgate:u2.z
+c <= andgate:u1.z
+
+
+|ha_st|andgate:u1
+a => z~0.IN0
+b => z~0.IN1
+z <= z~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ha_st|xorgate:u2
+a => z~0.IN0
+b => z~0.IN1
+z <= z~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

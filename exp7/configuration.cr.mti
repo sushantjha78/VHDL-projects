@@ -1,0 +1,13 @@
+C:/Users/susha/Desktop/vhdl/exp7/Verilog2.v {0 {vlog -work work -nocovercells C:/Users/susha/Desktop/vhdl/exp7/Verilog2.v
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module FA_dataflow_tb
+** Error: C:/Users/susha/Desktop/vhdl/exp7/Verilog2.v(51): near "EOF": syntax error, unexpected "end of source code"
+
+} {4.0 5.0} {}} C:/Users/susha/Desktop/vhdl/exp7/config.v {1 {vlog -work work -nocovercells C:/Users/susha/Desktop/vhdl/exp7/config.v
+Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+-- Compiling module FA_dataflow
+
+Top level modules:
+	FA_dataflow
+
+} {} {}}

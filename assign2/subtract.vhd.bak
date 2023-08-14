@@ -1,0 +1,46 @@
+-- substractor
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity substractor is
+    port(
+        inp1 : in std_logic_vector(7 downto 0);
+        inp2 : in std_logic_vector(7 downto 0);
+        output : out std_logic_vector(7 downto 0);
+        borrow_out : out std_logic
+    );
+end substractor;
+
+architecture first_cmp_substractor of substractor is
+    signal inp2_com : std_logic_vector(7 downto 0) :="00000000";
+    signal output_first : std_logic_vector(7 downto 0) :="00000000";
+    signal output_second : std_logic_vector(7 downto 0) :="00000000";
+    signal output_third : std_logic_vector(7 downto 0):="00000000";
+    signal borrow : std_logic :='0';
+    signal borrow_second : std_logic:='0';
+    begin
+        process(inp1,inp2)
+        begin
+            inp2_com <= inp2 xor "11111111";
+            loop1:
+            for i in 0 to 7 loop
+                output_first(i) <= inp1(i) xor inp2_com(i) xor borrow;
+                borrow <= (inp1(i) and inp2_com(i)) or (inp1(i) and borrow) or (inp2_com(i) and borrow);
+            end loop;
+            output_second(0) <= borrow;
+            loop2:
+            for i in 0 to 7 loop
+                output_third(i) <= output_first(i) xor output_second(i) xor borrow_second;
+                borrow_second <= (output_first(i) and output_second(i)) or (output_first(i) and borrow_second) or (output_second(i) and borrow_second);
+            end loop;
+            -- output <=   output_third xor "11111111" when borrow = '0' else 
+            --             output_third; 
+            borrow_out <= borrow;
+            if borrow = '0' then
+                output <= output_third;
+            else
+                output <= output_third xor "11111111";
+            end if;
+        end process;
+end first_cmp_substractor;

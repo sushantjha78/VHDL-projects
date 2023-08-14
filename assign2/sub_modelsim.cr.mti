@@ -1,0 +1,19 @@
+C:/Users/susha/Desktop/vhdl/assign2/subtract.vhd {1 {vcom -work work -2002 -explicit C:/Users/susha/Desktop/vhdl/assign2/subtract.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity subtract
+-- Compiling architecture first_cmp_substractor of subtract
+
+} {} {}} C:/Users/susha/Desktop/vhdl/assign2/sub_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/susha/Desktop/vhdl/assign2/sub_tb.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity sub_tb
+-- Compiling architecture tb of sub_tb
+
+} {} {}}

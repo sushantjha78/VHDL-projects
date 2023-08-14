@@ -1,0 +1,90 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\susha\Desktop\vhdl\exp7
+Esub_tb
+Z0 !s101 -O0 -O0 -O0 -O0 -O0 -O0 -O0 -O0
+Z1 w1650318410
+Z2 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z4 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 dC:\Users\susha\Desktop\vhdl\assign2
+Z6 8C:/Users/susha/Desktop/vhdl/assign2/sub_tb.vhd
+Z7 FC:/Users/susha/Desktop/vhdl/assign2/sub_tb.vhd
+l0
+L7
+VEd=a23o2W=hc5c8gbC^PT0
+Z8 OV;C;6.4a;39
+Z9 !s101 -O0 -O0 -O0 -O0 -O0 -O0 -O0 -O0
+32
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 N1MiFKlF0OXIkJ8QzJS`l1
+Atb
+R2
+R3
+R4
+DEx4 work 6 sub_tb 0 22 Ed=a23o2W=hc5c8gbC^PT0
+l27
+L10
+Vh;fA;QaHCDLH^Pz`W6ahW2
+R8
+32
+Z12 Mx3 4 ieee 14 std_logic_1164
+Z13 Mx2 4 ieee 18 std_logic_unsigned
+Z14 Mx1 4 ieee 15 std_logic_arith
+R10
+R11
+!s100 WlkEagzF96bG_7Y:njRgQ1
+Esubtract
+R9
+Z15 w1650305831
+R2
+R3
+R4
+R5
+Z16 8C:/Users/susha/Desktop/vhdl/assign2/subtract.vhd
+Z17 FC:/Users/susha/Desktop/vhdl/assign2/subtract.vhd
+l0
+L6
+VTG1VJGC0fn3HLfG0Rz^Yh0
+!s100 Q;QL^01BezV9PFFU2n5k]0
+R8
+R9
+32
+R10
+R11
+Afirst_cmp_substractor
+R2
+R3
+R4
+Z18 DEx4 work 8 subtract 0 22 TG1VJGC0fn3HLfG0Rz^Yh0
+l22
+L15
+Z19 VRe[W<1UgoiG8g0J4>Xebk3
+Z20 !s100 j?<E3ngaX2Eb?WfDB<9Qf2
+R8
+32
+R12
+R13
+R14
+R10
+R11
+Etest_substractor
+w1650308549
+R2
+R3
+R4
+R5
+R6
+R7
+l0
+L7
+VDAWZL29YMaK@9l;JZka^S3
+R8
+R9
+32
+R10
+R11
+!s100 eP^oQ1@6>aMA?F[i8VHGn1

@@ -1,0 +1,8 @@
+|mealy
+clk => present_state.CLK
+din => dout~0.DATAA
+din => present_state~0.DATAA
+rst => present_state~0.OUTPUTSELECT
+dout <= dout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

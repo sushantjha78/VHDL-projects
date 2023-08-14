@@ -1,0 +1,17 @@
+C:/Users/susha/Desktop/vhdl/exp4/register/register_async.vhd {1 {vcom -work work -2002 -explicit C:/Users/susha/Desktop/vhdl/exp4/register/register_async.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity sipo_asyncreset
+-- Compiling architecture arch of sipo_asyncreset
+
+} {} {}} C:/Users/susha/Desktop/vhdl/exp4/register/async_register_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/susha/Desktop/vhdl/exp4/register/async_register_tb.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity sipo_syncreset_tb
+-- Compiling architecture tb of sipo_syncreset_tb
+
+} {} {}}

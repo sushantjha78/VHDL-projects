@@ -1,0 +1,76 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\90\modelsim_ase
+Emealy
+Z0 !s101 -O0 -O0 -O0 -O0
+Z1 w1646828510
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 dC:\Users\susha\Desktop\vhdl\quartus_exam\mealy
+Z4 8C:/Users/susha/Desktop/vhdl/quartus_exam/mealy/mealy.vhd
+Z5 FC:/Users/susha/Desktop/vhdl/quartus_exam/mealy/mealy.vhd
+l0
+L5
+V1^7]2jXlf`76oOT;Dh1iU1
+Z6 OV;C;6.4a;39
+Z7 !s101 -O0 -O0 -O0 -O0
+32
+Z8 o-work work -2002 -explicit -O0
+Z9 tExplicit 1
+!s100 BY`@4oOgY_4VZZ?glDaLZ0
+Abehav
+R2
+DEx4 work 5 mealy 0 22 1^7]2jXlf`76oOT;Dh1iU1
+l13
+L10
+VF2XbfU@a`o8lRRc9A<G[O3
+R6
+32
+Z10 Mx1 4 ieee 14 std_logic_1164
+R8
+R9
+!s100 ZG;mg_bdJfco9dFlMf9T@1
+Emealy_tb
+R7
+Z11 w1646832567
+R2
+R3
+Z12 8C:/Users/susha/Desktop/vhdl/quartus_exam/mealy/mealy_tb.vhd
+Z13 FC:/Users/susha/Desktop/vhdl/quartus_exam/mealy/mealy_tb.vhd
+l0
+L4
+VCbW[bkGTBf_f`P]eMld9M3
+!s100 L6X0?eeD_j=gR8Bb^UI1`1
+R6
+R7
+32
+R8
+R9
+Abehavior
+R2
+Z14 DEx4 work 8 mealy_tb 0 22 CbW[bkGTBf_f`P]eMld9M3
+l25
+L6
+Z15 V1zA7DDSka<XcM2jdBI0LX0
+Z16 !s100 =]k0CDJgKXMkDR>]zU3>K1
+R6
+32
+R10
+R8
+R9
+Etb_mealy_11
+w1646118174
+R2
+Z17 dC:\Users\susha\Desktop\hashcode\quartus_exam\mealy
+Z18 8C:/Users/susha/Desktop/hashcode/quartus_exam/mealy/mealy_tb.vhd
+Z19 FC:/Users/susha/Desktop/hashcode/quartus_exam/mealy/mealy_tb.vhd
+l0
+L4
+VYXz:DfHLa0cD>fafLPK^51
+R6
+R7
+32
+R8
+R9
+!s100 A3:1J@9f[[c0CWCM@Ji2_1

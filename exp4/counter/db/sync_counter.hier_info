@@ -1,0 +1,35 @@
+|sync_counter
+clk => cnt[7].CLK
+clk => cnt[6].CLK
+clk => cnt[5].CLK
+clk => cnt[4].CLK
+clk => cnt[3].CLK
+clk => cnt[2].CLK
+clk => cnt[1].CLK
+clk => cnt[0].CLK
+reset => cnt~15.OUTPUTSELECT
+reset => cnt~14.OUTPUTSELECT
+reset => cnt~13.OUTPUTSELECT
+reset => cnt~12.OUTPUTSELECT
+reset => cnt~11.OUTPUTSELECT
+reset => cnt~10.OUTPUTSELECT
+reset => cnt~9.OUTPUTSELECT
+reset => cnt~8.OUTPUTSELECT
+enable => cnt~7.OUTPUTSELECT
+enable => cnt~6.OUTPUTSELECT
+enable => cnt~5.OUTPUTSELECT
+enable => cnt~4.OUTPUTSELECT
+enable => cnt~3.OUTPUTSELECT
+enable => cnt~2.OUTPUTSELECT
+enable => cnt~1.OUTPUTSELECT
+enable => cnt~0.OUTPUTSELECT
+q[0] <= cnt[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= cnt[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= cnt[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= cnt[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= cnt[4].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= cnt[5].DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= cnt[6].DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= cnt[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

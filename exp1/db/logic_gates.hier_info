@@ -1,0 +1,23 @@
+|logic_gates
+a => c5~0.IN0
+a => c4~0.IN0
+a => c3~0.IN0
+a => c2~0.IN0
+a => c1~0.IN0
+a => c~0.IN0
+b => c5~0.IN1
+b => c4~0.IN1
+b => c3~0.IN1
+b => c2~0.IN1
+b => c1~0.IN1
+b => c~0.IN1
+b => c6.DATAIN
+c <= c~0.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= c1~0.DB_MAX_OUTPUT_PORT_TYPE
+c2 <= c2~0.DB_MAX_OUTPUT_PORT_TYPE
+c3 <= c3~0.DB_MAX_OUTPUT_PORT_TYPE
+c4 <= c4~0.DB_MAX_OUTPUT_PORT_TYPE
+c5 <= c5~0.DB_MAX_OUTPUT_PORT_TYPE
+c6 <= b.DB_MAX_OUTPUT_PORT_TYPE
+
+

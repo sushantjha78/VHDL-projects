@@ -1,0 +1,16 @@
+|mux_ifte
+D[3] => y~0.DATAB
+D[2] => y~1.DATAB
+D[1] => y~2.DATAB
+D[0] => y~3.DATAB
+sel[1] => Equal0.IN0
+sel[1] => Equal1.IN1
+sel[1] => Equal2.IN0
+sel[1] => Equal3.IN0
+sel[0] => Equal0.IN1
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN1
+sel[0] => Equal3.IN1
+y <= y~3.DB_MAX_OUTPUT_PORT_TYPE
+
+

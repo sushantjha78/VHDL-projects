@@ -1,0 +1,28 @@
+|mux4x1
+D1 => Mux_wsw:u1.D1
+D2 => Mux_wsw:u1.D2
+D3 => Mux_wsw:u2.D1
+D4 => Mux_wsw:u2.D2
+sel1 => Mux_wsw:u1.sel1
+sel2 => Mux_wsw:u2.sel1
+y0 <= Mux_wsw:u1.y
+y1 <= Mux_wsw:u2.y
+yf <= comb~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4x1|Mux_wsw:u1
+D1 => Selector0.IN3
+D2 => Selector0.IN4
+sel => Selector0.IN5
+sel => Selector0.IN1
+y <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4x1|Mux_wsw:u2
+D1 => Selector0.IN3
+D2 => Selector0.IN4
+sel => Selector0.IN5
+sel => Selector0.IN1
+y <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+

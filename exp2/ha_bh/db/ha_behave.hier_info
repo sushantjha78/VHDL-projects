@@ -1,0 +1,10 @@
+|ha_behave
+a => c~0.OUTPUTSELECT
+a => s~0.OUTPUTSELECT
+b => c~0.DATAB
+b => s~0.DATAA
+b => s~0.DATAB
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+c <= c~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
